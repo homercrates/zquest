@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 const MainBoard = () => {
   return (
@@ -12,6 +13,7 @@ const MainBoard = () => {
         }}
       >
         Main Board Area
+        <Button variant="primary">Push</Button>
       </h1>
 
       <p>need a zombies container</p>
