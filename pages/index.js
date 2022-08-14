@@ -23,9 +23,13 @@ export default function Home() {
         <p>
           I have got to figure out how to comment  in this structure
           {/* oh yeeeeeeeeeah  its JS inside this return to dom part so we have to use {} to place code in */}
-          figure it out..  leave this here until a login is create. 
-          <h2> Probably later want to put in a navbar above and a log in  modal  bootstrap maybe? to handle modal?</h2>
+          figure it out..  leave this here until a login is create.
         </p>
+        <h2> Probably later want to put in a navbar above and a log in  modal  bootstrap maybe? to handle modal?</h2>
+       
+        <h2>
+          <a href="/MainBoard" >temporary link to the other page</a>
+        </h2>
       </main>
 
       <footer className={styles.footer}>
